@@ -1,0 +1,19 @@
+.start {
+  text-align: center;
+  background-image: url("/round-2.png");
+  background-repeat: no-repeat;
+  background-size: clamp(15.625rem, 10.306rem + 26.596vw, 31.25rem);
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.start h1 {
+  color: #334949;
+  font-family: "Slackside One", cursive;
+  padding-bottom: clamp(1.875rem, 0.811rem + 5.319vw, 5rem);
+  font-size: clamp(5rem, 2.872rem + 10.638vw, 11.25rem);
+}

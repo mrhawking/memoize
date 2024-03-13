@@ -1,0 +1,55 @@
+.trainingMode {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainingModeInner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.trainingCard {
+  padding: 20px;
+  font-size: clamp(1rem, 0.702rem + 1.489vw, 1.875rem);
+  font-weight: bold;
+  color: #f78d1d;
+  border: 1px solid #f78d1d;
+  background-color: #faef1a1d;
+  border-radius: 10px;
+  width: clamp(18.75rem, 14.92rem + 19.149vw, 30rem);
+  height: clamp(9.375rem, 6.184rem + 15.957vw, 18.75rem);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  text-align: center;
+  overflow: scroll;
+}
+
+.cardActions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardButton {
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.cardButton:hover {
+  opacity: 1;
+}
+
+.cardButton:disabled,
+.cardButton.disabled {
+  background: #334949;
+  border: #334949 1px solid;
+  cursor: default;
+  opacity: 1;
+}

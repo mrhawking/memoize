@@ -1,0 +1,30 @@
+.header {
+  background-color: #334949;
+  color: #fff;
+  padding: 30px 0;
+}
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+  }
+}
+
+.headerActions {
+  display: flex;
+  gap: 15px;
+}
+
+.headerText {
+  font-size: clamp(0.875rem, 0.662rem + 1.064vw, 1.5rem);
+  font-weight: 400;
+}
+
+.headerText span {
+  font-size: clamp(1.125rem, 0.912rem + 1.064vw, 1.75rem);
+  font-weight: 600;
+}
