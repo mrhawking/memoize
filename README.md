@@ -17,3 +17,4 @@
 * Redux Toolkit
 * TypeScript
 * Firebase API
+* Vite
