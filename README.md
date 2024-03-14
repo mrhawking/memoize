@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Приложение для изучения языков с помощью карточек
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Ссылка на готовый сайт - [https://memoize-one.vercel.app/]
 
-Currently, two official plugins are available:
+### О приложении
+* Возможность создавать свои собственные карточки типа *слово - перевод*.
+* Данные хранятся в firebase Database. 
+* Можно редактировать и удалять существующие карточки
+* Есть режим тренировки в котором :
+    * участвуют все карточки из коллекции 
+    * можно нажать на карточку и она пакажет свою обратную сторону (слово, либо его перевод)
+    * можно переключить режим показа карточек по кнопке "Переключить режим"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Основной стек:
+* React
+* React Router
+* Redux Toolkit
+* TypeScript
+* Firebase API
